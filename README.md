@@ -1,4 +1,4 @@
-# invoicedataextraction-com
+# Invoice Data Extraction
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,133 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-invoicedataextraction-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://invoicedataextraction.com/
+Invoice Data Extraction, powered by DEH Technologies LLC, offers AI-driven extraction of invoices, receipts, bank statements, payroll data, and other financial documents. Users can upload PDFs or images and receive structured data in Excel, CSV, or JSON formats. The service provides a pay‑per‑use model with 50 free pages per month, no subscription, and credits that last 18 months. It targets accountants, bookkeepers, AP teams, and business owners seeking automated data entry.
+
+**Areas:** Finance · AI · Data Extraction · Invoicing · Automation
+
+## Invoice Data Extraction on APIs.io
+
+Everything profiled for Invoice Data Extraction is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/invoicedataextraction-com/](https://apis.io/providers/invoicedataextraction-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (3)
+
+- [Invoice Data Extraction Credits API](https://apis.io/apis/invoicedataextraction-com/invoicedataextraction-com-credits-api/) — The account's credit balance.
+- [Invoice Data Extraction Extractions API](https://apis.io/apis/invoicedataextraction-com/invoicedataextraction-com-extractions-api/) — Submit, wait for, read, list, answer, cancel and delete extractions.
+- [Invoice Data Extraction Uploads API](https://apis.io/apis/invoicedataextraction-com/invoicedataextraction-com-uploads-api/) — Register the files of one upload session, upload each file in parts to signed URLs, and complete each file. Every upload endpoint shares one rate limit of…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Invoice Data Extraction Agentic Access](https://apis.io/agentic-access/invoicedataextraction-com/invoicedataextraction-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [CreateUploadSessionResponse](https://apis.io/schemas/invoicedataextraction-com/invoicedataextraction-com-create-upload-session-response/)
+- [ExtractionCancelled](https://apis.io/schemas/invoicedataextraction-com/invoicedataextraction-com-extraction-cancelled/)
+- [ExtractionResultsResponse](https://apis.io/schemas/invoicedataextraction-com/invoicedataextraction-com-extraction-results-response/)
+- [ExtractionStatusResponse](https://apis.io/schemas/invoicedataextraction-com/invoicedataextraction-com-extraction-status-response/)
+- [GetUploadPartUrlsResponse](https://apis.io/schemas/invoicedataextraction-com/invoicedataextraction-com-get-upload-part-urls-response/)
+- [SubmitExtractionRequest](https://apis.io/schemas/invoicedataextraction-com/invoicedataextraction-com-submit-extraction-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Invoicedataextraction Com Context](https://apis.io/jsonld/invoicedataextraction-com/invoicedataextraction-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Invoice Data Extraction API Rules](https://apis.io/rules/invoicedataextraction-com/invoicedataextraction-com-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Invoice Data Extraction Authentication](https://apis.io/security/invoicedataextraction-com/invoicedataextraction-com-authentication/)
+- [Invoice Data Extraction Domain Security](https://apis.io/security/invoicedataextraction-com/invoicedataextraction-com-domain-security/)
+- [Invoice Data Extraction Vulnerability Disclosure](https://apis.io/security/invoicedataextraction-com/invoicedataextraction-com-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Invoice Data Extraction Plans Pricing](https://apis.io/plans/invoicedataextraction-com/invoicedataextraction-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://invoicedataextraction.com/)
+- [API reference](https://invoicedataextraction.com/docs/api)
+- [Pricing](https://invoicedataextraction.com/pricing)
+- [Changelog](https://invoicedataextraction.com/docs/changelog)
+- [Blog](https://invoicedataextraction.com/blog)
+- [Security](https://invoicedataextraction.com/security)
+- [Terms of service](https://invoicedataextraction.com/terms-of-service)
+- [Privacy policy](https://invoicedataextraction.com/privacy-policy)
+- [GitHub](https://github.com/invoicedataextraction)
+
+## API Evangelist rating
+
+**Kin Score 61.2** — strong · rubric 0.27.0 · scored 2026-11-12
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 65.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 39.5 |
+| Developer ergonomics | 35.0 |
+| Access clarity | 73.2 |
+
+**Agent readiness 47.2** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 28.2** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/invoicedataextraction-com/](https://apis.io/providers/invoicedataextraction-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Invoice Data Extraction: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/invoicedataextraction-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
